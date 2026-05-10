@@ -68,12 +68,12 @@ lab05_fastapi_http/
 ## Запуск
 
 ### Виртуальная среда
-Используется venv из `C:\CODE\VP\lab01_fastapi_http\.venv`
+Используется venv из `C:\CODE\VP\lab05_fastapi_http\.venv` замените C:\CODE\VP\
 
 ### Запуск сервера
 ```bash
 cd C:\CODE\VP\lab05_fastapi_http
-C:\CODE\VP\lab01_fastapi_http\.venv\Scripts\uvicorn.exe src.main:app --reload --port 8001
+C:\CODE\VP\lab05_fastapi_http\.venv\Scripts\uvicorn.exe src.main:app --reload --port 8001
 ```
 
 > **Примечание:** если порт 8000 занят другим процессом, используй `--port 8001` или любой свободный.
@@ -240,14 +240,17 @@ FC:      Linear(2048 → 256) → ReLU → Dropout(0.25)
 **Лучшая точность: 81.58%** (эпоха 14, веса сохранены)
 
 ### Запуск обучения заново
+Замените C:\CODE\VP\ на свой путь
 ```bash
-cd C:\CODE\VP\lab05_fastapi_http
-C:\CODE\VP\lab01_fastapi_http\.venv\Scripts\python.exe -m ml.train
+cd C:\CODE\VP\lab05_fastapi_http 
+C:\CODE\VP\lab05_fastapi_http\.venv\Scripts\python.exe -m ml.train
 ```
 
+
 ### Оценка на тестовой выборке
+Замените C:\CODE\VP\ на свой путь
 ```bash
-C:\CODE\VP\lab01_fastapi_http\.venv\Scripts\python.exe -m ml.evaluate
+C:\CODE\VP\lab05_fastapi_http\.venv\Scripts\python.exe -m ml.evaluate
 ```
 
 ---
@@ -293,7 +296,7 @@ OpenCV читает изображения в порядке **BGR**, а PyTorch
 ---
 
 ## Быстрая проверка работоспособности
-
+Замените C:\CODE\VP\ на свой путь
 ```bash
 # 1. Запустить сервер
 cd C:\CODE\VP\lab05_fastapi_http #Ваш путь замените C:\CODE\VP\
