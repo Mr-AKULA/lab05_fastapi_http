@@ -8,3 +8,6 @@ torch
 torchvision
 pillow
 python-dotenv
+scikit-learn
+matplotlib
+seaborn
